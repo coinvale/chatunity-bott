@@ -12,11 +12,8 @@
  <a href="https://github.com/chatunityy/chatunity-bot/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a 
  <img width="" src="https://img.shields.io/github/repo-size/chatunityy/chatunity-bot?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
 
-
 <p align="center"> 
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9e62d7&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale"
-
-
+<a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"
 
 
 
