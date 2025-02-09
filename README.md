@@ -12,6 +12,13 @@
  src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"></a>
 
 
+###
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=chatunityy&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunityy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
+
 
  ##### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
  https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file 
