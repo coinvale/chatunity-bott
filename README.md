@@ -3,14 +3,8 @@
 
    <p align="center"> 
  <a href="https://github.com/chatunityy/followers"><img title="𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫𝐬" src="https://img.shields.io/github/followers/chatunityy?color=red&style=flat-square"></a> 
- <a href="https://github.com/chatunityy/chatunityy/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/chatunityy?color=blue&style=flat-square"></a> 
- <a href="https://github.com/chatunityy/network/members"><img title="𝐅𝐨𝐫𝐤𝐬" src="https://img.shields.io/github/forks/chatunityy/chatunity-bot?color=red&style=flat-square"></a> 
- <a href="https://komarev.com/ghpvc/?username=Fabri115&color=blue&style=flat-square&label=Profile+Visual"><img src="https://komarev.com/ghpvc/?username=chatunityy&color=blue&style=flat-square&label=Profile+Visual" /> 
- <a href="https://github.com/chatunityy/chatunityy/watchers"><img title="𝐖𝐚𝐭𝐜𝐡𝐢𝐧𝐠" src="https://img.shields.io/github/watchers/chatunityy/chatunity-bot?label=Watcher'srepo&color=blue&style=flat-square"></a> 
- <a href="https://github.com/chatunityy/chatunity-bot"><img title="𝐎𝐩𝐞𝐧 𝐒𝐨𝐮𝐫𝐜𝐞" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a> 
- <a href="https://github.com/chatunityy/AyGemuy/"><img title="𝐒𝐢𝐳𝐞" src="https://img.shields.io/github/repo-size/chatunityy/chatunity-bot?style=flat-square&color=green"></a> 
- <a href="https://github.com/chatunityy/chatunity-bot/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a 
- <img width="" src="https://img.shields.io/github/repo-size/chatunityy/chatunity-bot?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
+ <a href="https://github.com/chatunityy/chatunityy/stargazers/"><img ><img src="https://komarev.com/ghpvc/?username=chatunityy&color=blue&style=flat-square&label=Profile+Visual" /> 
+ <a href="https://github.com/chatunityy/chatunityy/watchers"><img 
 
 <p align="center"> 
 <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9bd762&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale+cliccando+qui"
