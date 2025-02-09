@@ -20,11 +20,11 @@ let neww = performance.now()
 let speed = (neww - old).toFixed(4)
 let prova = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo"
 }, "message": { 
-"orderMessage": { text: '𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 🔮',
+"orderMessage": { text: '𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 💬',
 "itemCount": 2023,
 "status": 1,
 "surface" : 1,
-    "message": '𝐒𝐜𝐚𝐫𝐢𝐜𝐚 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 🔮',
+    "message": '𝐒𝐜𝐚𝐫𝐢𝐜𝐚 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 💬',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=15395490858:+1 (539) 549-0858\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
 }}, "participant": "0@s.whatsapp.net"
 }
@@ -40,15 +40,15 @@ let info = `
 ✧ pkg install ffmpeg -y
 ✧ pkg install imagemagick -y
 ✧ pkg install yarn
-✧ git clone https://github.com/MoonContentCreator/BixbyBot-Md.git
-✧ cd BixbyBot-Md 
+✧ git clone https://github.com/chatunityy/chatunity-bot.git
+✧ cd chatunity-bot 
 ✧ yarn install 
 ✧ npm install
 ✧ npm update
 ✧ npm start
 
 𝐒𝐜𝐚𝐫𝐢𝐜𝐚𝐫𝐞 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 𝐝𝐞𝐥 𝐛𝐨𝐭 📱
-✧ cd /sdcard && rm -rf BixbyBot-Md && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git && cd BixbyBot-Md && npm start
+✧ cd /sdcard && rm -rf chatunity-bot && git clone https://github.com/chatunityy/chatunity-bot.git && cd chatunity-bot && npm start
 ══════ •⊰✦⊱• ══════
 `.trim() 
 conn.reply(m.chat, info,prova, m, {
