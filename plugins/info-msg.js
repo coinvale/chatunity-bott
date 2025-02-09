@@ -321,7 +321,7 @@ function _0x5b83() {
         'hex',
         'mentionedJid',
         '56FFLuPo',
-        'https://t.me/AssistenzaBixbyBot',
+        'https://t.me/Assistenzachatunity-bot',
         '\x0a>\x20✍️\x20𝐏𝐫𝐞𝐟𝐢𝐬𝐬𝐨\x20:\x20*',
         'Halo',
         'QJIco',

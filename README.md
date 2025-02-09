@@ -18,7 +18,7 @@
 
  ### `✦ 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐏𝐄𝐑 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐀𝐑𝐄 𝐋𝐀 𝐂𝐀𝐑𝐓𝐄𝐋𝐋𝐀 𝐃𝐈 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 💬` 
  ```bash 
- cd /sdcard && rm -rf BixbyBot && git clone https://github.com/chatunityy/chatunity-bot.git && cd chatunity-bot
+ cd /sdcard && rm -rf chatunity-bot && git clone https://github.com/chatunityy/chatunity-bot.git && cd chatunity-bot
  ``` 
  COPIALO TUTTO E INCOLLALO SU TERMUX, NON COPIARE MEZZA O UNA COSA, E' TUTTO INSIEME 
 
@@ -49,7 +49,7 @@
  ```     
 
  ```bash 
- cd /sdcard && rm -rf BixbyBot && git clone https://github.com/chatunityy/chatunity-bot.git
+ cd /sdcard && rm -rf chatunity-bot && git clone https://github.com/chatunityy/chatunity-bot.git
  ``` 
 
  ```bash 
