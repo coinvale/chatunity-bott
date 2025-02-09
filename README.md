@@ -13,11 +13,8 @@
 
 
 ###
- <div align="left">
+ <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunityy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
- <div align="right">
-  <img src="https://i.imgflip.com/9jmz6k.gif" height="150" alt="languages graph"  />
- </div>
 
 ###
 
