@@ -14,8 +14,7 @@
 
 
 <p align="center"> 
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9e62d7&center=falso&vCenter=falso&lines=ChatUnity-bot++%F0%9F%90%88;Entra+nel+nostro+canale" height="90px"></a> 
-<img src="https://qu.ax/lHrxl.jpeg" alt="ChatUnity-bot" style="width: 100%; height: auto; max-width: 500px;">
+<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=9e62d7&center=falso&vCenter=falso&lines=ChatUnity-bot;Entra+nel+nostro+canale"
 
 
 
