@@ -20,8 +20,7 @@
 ###
 
  <div align="center">
-  <iframe width="500" height="500" frameBorder="0" src="https://imgflip.com/embed/9jmvx7"></iframe>
-  <p><a href="https://imgflip.com/gif/9jmvx7">via Imgflip</a></p>
+  <a href="https://imgflip.com/gif/9jmvx7"><img src="https://i.imgflip.com/9jmvx7.gif" title="via Imgflip" width="500" height="500" /></a>
  </div>
 
 ###
