@@ -18,7 +18,9 @@
  </div>
 
 
- <img align="right" height="385" src="https://i.imgflip.com/9jmz6k.gif"  />
+ <div align="center">
+  <img src="https://i.imgflip.com/9jmz6k.gif" height="150" alt="languages graph"  />
+ </div>
 
 ###
 
