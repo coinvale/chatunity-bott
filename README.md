@@ -23,7 +23,7 @@
  https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file 
 </details>
 
- ### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
+ #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
  
  <details>
   <summary><b>Tocca qui per vedere </b></summary>
@@ -61,7 +61,7 @@
 
 </details>
 
- ### `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗`
+ #### `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗`
  <details>
   <summary><b>Tocca qui per vedere </b></summary>
     
@@ -71,7 +71,7 @@
 
 </details>
 
- ### `✦ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬` 
+ #### `✦ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬` 
 <details>
   <summary><b>Tocca qui per vedere </b></summary>
    
@@ -86,7 +86,7 @@
  ``` 
 </details>
 
- ### `𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑` 
+ #### `𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑` 
 <details>
   <summary><b>Tocca qui per vedere </b></summary>
    
@@ -111,7 +111,7 @@
  
  </details>
 
- ### 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
+ ## 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
 <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="200px"></a>
 
 - **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
