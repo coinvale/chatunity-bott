@@ -17,7 +17,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunityy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 
 ###
-
+></a>
  ##### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
  <details>
   <summary><b>Tocca qui per vedere </b></summary>
@@ -78,7 +78,6 @@
 <details>
   <summary><b>Tocca qui per vedere </b></summary>
    
- DIGITA QUESTI COMANDI: 
  ```
  > cd chatunity-bot 
  ``` 
@@ -116,7 +115,7 @@
  </details>
 
  ### 🎇 ChatUnity
-<a href="https://dahs.hostingpy.shop/"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="130px"></a>
+<a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="130px"></a>
 
 - **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
 - **Canale WhatsApp:** [`clicca  qui`](https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J)
