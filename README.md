@@ -14,7 +14,7 @@
 
 ###
  <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunityy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chatunityy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  /></a>
 
 ###
 ></a>
@@ -113,10 +113,10 @@
  
  </details>
 
- ### 🎇 ChatUnity
+ ### 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
 <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="200px"></a>
 
 - **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
 - **Canale WhatsApp:** [`clicca  qui`](https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J)
 - **Contatto:** [`clicca  qui`](https://wa.me/8619858371809)
--  **Collab:** [`clicca  qui`](https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx)
+- **Collab:** [`clicca  qui`](https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx)
