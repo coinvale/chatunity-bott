@@ -1,3 +1,7 @@
+import os from 'os';
+import chalk from 'chalk';
+import { readFileSync } from 'fs';
+
 console.log('Preparo chatunity-bot...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
@@ -32,8 +36,6 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-
-  
 setupMaster({
 exec: args[0],
 args: args.slice(1), })
@@ -66,3 +68,30 @@ if (!opts['test'])
 if (!rl.listenerCount()) rl.on('line', line => {
 p.emit('message', line.trim())})}
 start('main.js')
+
+// Additional Information
+const ramInGB = os.totalmem() / (1024 ** 3);
+const freeRamInGB = os.freemem() / (1024 ** 3);
+const packageJsonObj = JSON.parse(readFileSync(join(__dirname, './package.json'), 'utf8'));
+const currentTime = new Date().toLocaleTimeString();
+
+console.log(chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('┊') + chalk.yellow(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`));
+console.log(chalk.blueBright('┊') + chalk.yellow(`💾 Total RAM: ${ramInGB.toFixed(2)} GB`));
+console.log(chalk.blueBright('┊') + chalk.yellow(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`));
+console.log(chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('┊') + chalk.blue.bold(`🟢INFORMAZIONI :`));
+console.log(chalk.blueBright('┊') + chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('┊') + chalk.cyan(`💚 Nome: ${packageJsonObj.name}`));
+console.log(chalk.blueBright('┊') + chalk.cyan(`𓃠 Versione: ${packageJsonObj.version}`));
+console.log(chalk.blueBright('┊') + chalk.cyan(`💜 Update: Entra nel nostro canale per ricevere aggiornamenti `));
+console.log(chalk.blueBright('┊') + chalk.cyan(`💬 Autore del progetto: ChatUnity `));
+console.log(chalk.blueBright('┊') + chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('┊') + chalk.yellow(`💜 Collaboratori: vale`));
+console.log(chalk.blueBright('┊') + chalk.yellow(`Supporto: +8619858371809`));
+console.log(chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
+console.log(chalk.blueBright('┊') + chalk.cyan(`⏰ Ora attuale :`));
+console.log(chalk.blueBright('┊') + chalk.cyan(`${currentTime}`));
+console.log(chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅'));
