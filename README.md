@@ -28,41 +28,34 @@
  
 
  ### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗 `  
- - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈: 
+ - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈:
+   
  ```bash 
  termux-setup-storage 
  ``` 
 
  ```bash 
- pkg upgrade -y && pkg update -y 
+ apt update && apt upgrade -y
  ``` 
 
  ```bash 
- pkg install git -y 
+ pkg install -y git nodejs ffmpeg imagemagick yarn
  ```
 
  ```bash 
- pkg install ffmpeg -y 
+ git clone https://github.com/chatunityy/chatunity-bot.git 
  ```   
 
  ```bash 
- pkg install imagemagick -y 
- ```  
+ cd chatunity-bot 
+ ```   
 
  ```bash 
- pkg install yarn 
- ```     
-
- ```bash 
- cd /sdcard && rm -rf chatunity-bot && git clone https://github.com/chatunityy/chatunity-bot.git
+ yarn install
  ``` 
 
  ```bash 
- cd /sdcard/chatunity-bot 
- ```   
-
- ```bash 
- yarn
+ npm install
  ``` 
 
  ```bash 
