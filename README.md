@@ -24,9 +24,6 @@
 </details>
 
  #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
- 
- <details>
-  <summary><b>Tocca qui per vedere </b></summary>
     
  - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈:
 
@@ -58,8 +55,6 @@
  npm start
  ```
 > *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
-
-</details>
 
  #### `✦ 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗`
  <details>
