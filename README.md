@@ -66,21 +66,6 @@
 
 </details>
 
- #### `✦ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬` 
-<details>
-  <summary><b>Tocca qui per vedere </b></summary>
-   
- ```
- > cd chatunity-bot 
- ``` 
- ```bash 
- > rm -rf Sessioni 
- ``` 
- ```bash 
- > npm start
- ``` 
-</details>
-
  #### `✦ 𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑` 
 <details>
   <summary><b>Tocca qui per vedere </b></summary>
