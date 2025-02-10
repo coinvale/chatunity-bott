@@ -19,17 +19,21 @@
 ###
 
  ##### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
+ <details>
+  <summary><b>Tocca qui per vedere </b></summary>
+    
  https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file 
-
- ### `✦ 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐏𝐄𝐑 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐀𝐑𝐄 𝐋𝐀 𝐂𝐀𝐑𝐓𝐄𝐋𝐋𝐀 𝐃𝐈 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬` 
- ```bash 
- cd /sdcard && rm -rf chatunity-bot && git clone https://github.com/chatunityy/chatunity-bot.git && cd chatunity-bot
- ``` 
- 
+</details>
 
  ### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗 `  
+ 
+ <details>
+  <summary><b>Tocca qui per vedere </b></summary>
+    
  - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈:
-   
+
+   > *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
+   > 
  ```bash 
  termux-setup-storage 
  ``` 
@@ -43,12 +47,8 @@
  ```
 
  ```bash 
- git clone https://github.com/chatunityy/chatunity-bot.git 
- ```   
-
- ```bash 
- cd chatunity-bot 
- ```   
+ git clone https://github.com/chatunityy/chatunity-bot.git cd chatunity-bot
+ ```    
 
  ```bash 
  yarn install
@@ -60,29 +60,27 @@
 
  ```bash 
  npm start
- ``` 
+ ```
 
- ### `✦ 𝐀𝐕𝐕𝐈𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗` 
+</details>
 
- DIGITA QUESTI COMANDI: 
- ```bash 
- > cd /sdcard/chatunity-bot 
- ``` 
- ```bash 
- > npm start
- ``` 
-
- ### `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗` 
-
+ ### `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗`
+ <details>
+  <summary><b>Tocca qui per vedere </b></summary>
+    
   ```bash 
  > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-   ``` 
+   ```
+
+</details>
 
  ### `✦ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 ` 
-
+<details>
+  <summary><b>Tocca qui per vedere </b></summary>
+   
  DIGITA QUESTI COMANDI: 
  ```
- > cd /sdcard/chatunity-bot 
+ > cd chatunity-bot 
  ``` 
  ```bash 
  > rm -rf Sessioni 
@@ -90,9 +88,12 @@
  ```bash 
  > npm start
  ``` 
+</details>
 
  ### `𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑` 
-
+<details>
+  <summary><b>Tocca qui per vedere </b></summary>
+   
  * Scarica e installa Git [`Clicca qui`](https://git-scm.com/downloads) 
  * Scarica e installa NodeJS [`Clicca qui`](https://nodejs.org/en/download) 
  * Scarica e installa ffmpeg [`Clicca qui`](https://ffmpeg.org/download.html) (**Non dimenticare Aggiungi ffmpeg alle variabili PATH**) 
@@ -110,21 +111,14 @@
  ```bash 
  npm update 
  ``` 
+ ---------
+ 
+ </details>
 
- --------- 
- ### `✦ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 ` 
+ ### 🎇 ChatUnity
+<a href="https://dahs.hostingpy.shop/"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="130px"></a>
 
- 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈: 
- ```bash 
- > cd  
- ``` 
- ```bash 
- > cd /sdcard/chatunity-bot 
- ``` 
- ```bash 
- > rm Sessioni 
- ``` 
- ```bash 
- > sh start.sh 
- ``` 
- --------- 
+- **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
+- **Canale WhatsApp:** [`clicca  qui`](https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J)
+- **Contatto:** [`clicca  qui`](https://wa.me/8619858371809)
+- - **Collab:** [`clicca  qui`]([https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx](https://whatsapp.com/channel/0029Vb1C4od5vKA35u1Mqc06))
