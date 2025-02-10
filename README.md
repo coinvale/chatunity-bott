@@ -115,9 +115,9 @@
  </details>
 
  ### 🎇 ChatUnity
-<a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="130px"></a>
+<a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J"><img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" height="200px"></a>
 
 - **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
 - **Canale WhatsApp:** [`clicca  qui`](https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J)
 - **Contatto:** [`clicca  qui`](https://wa.me/8619858371809)
--  **Collab:** [`clicca  qui`]([https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx)
+-  **Collab:** [`clicca  qui`](https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx)
