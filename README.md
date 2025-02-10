@@ -32,8 +32,6 @@
     
  - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈:
 
-   > *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
-   > 
  ```bash 
  termux-setup-storage 
  ``` 
@@ -61,6 +59,7 @@
  ```bash 
  npm start
  ```
+> *Se appare **(Y/I/N/O/D/Z) [default=N] ?** usa la lettera **"y" + "ENTER"** per continuare l'installazione*
 
 </details>
 
