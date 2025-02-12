@@ -20,8 +20,10 @@
  <details>
   <summary><b>Tocca qui per vedere </b></summary>
     
- https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file 
-</details>
+https://f-droid.org/it/packages/com.termux/ 
+
+> *Scaricare l'apk Versione 0.119.0-beta.1 (1020) - Aggiunta il 21/06/2024*
+</details> 
 
  #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
     
