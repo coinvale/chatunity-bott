@@ -40,8 +40,12 @@
  ```
 
  ```bash 
- git clone https://github.com/chatunityy/chatunity-bot.git cd chatunity-bot
- ```    
+ git clone https://github.com/chatunityy/chatunity-bot.git
+ ```
+  
+ ```bash 
+ cd chatunity-bot
+ ```
 
  ```bash 
  yarn install
@@ -97,4 +101,4 @@
 - **Dashboard:** [`clicca  qui`](https://github.com/chatunityy)
 - **Canale WhatsApp:** [`clicca  qui`](https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J)
 - **Contatto:** [`clicca  qui`](https://wa.me/8619858371809)
-- **Collab:** [`clicca  qui`](https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx)
+- **Collab:** [`clicca  qui`](https://whatsapp.com/channel/0029Vb1C4od5vKA35u1Mqc06)
