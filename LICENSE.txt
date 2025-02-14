@@ -1,0 +1,27 @@
+No Modification License (NML) v1.0  
+
+Copyright (C) [ChatUnity]  
+
+Il presente software è concesso in licenza secondo i seguenti termini:  
+
+1. *Uso Consentito*  
+   - Il software può essere utilizzato solo per scopi personali e non commerciali.  
+   - Non è consentito l'uso per violare i Termini di Servizio di WhatsApp o altre piattaforme.  
+
+2. *Modifiche Proibite*  
+   - È vietato modificare, alterare o creare versioni derivate di questo software.  
+   - Qualsiasi tentativo di decompilazione o reverse engineering è proibito.  
+
+3. *Redistribuzione Proibita*  
+   - Non è consentito distribuire, vendere, condividere o pubblicare il software senza il permesso scritto dell'autore.  
+   - Non è consentito rinominare il software e farlo passare come proprio.  
+
+4. *Esclusione di Garanzia*  
+   - Questo software è fornito "così com'è", senza garanzie di alcun tipo.  
+   - L'autore non è responsabile per eventuali danni causati dall'uso di questo software.  
+
+5. *Termini Legali*  
+   - Qualsiasi violazione di questa licenza comporterà la revoca immediata del diritto di utilizzo.  
+   - L'autore si riserva il diritto di intraprendere azioni legali contro chi viola i termini.  
+
+Per richieste di autorizzazione, contattare: [@chatunityy@gmail.com]
