@@ -25,9 +25,9 @@ const handler = async (message, { conn, usedPrefix }) => {
 
     const profilePicture = await conn.profilePictureUrl(message.sender, 'image').catch(() => defaultImage);
     const botName = global.db.data.nomedelbot || 'ChatUnity-Bot 💬';
-    const menuText = generateMenuText(usedPrefix, botName);
+    const menuText = generateMenuText(usedPrefix, botName, userCount);
 
-    conn.sendMessage(message.chat, {
+    await conn.sendMessage(message.chat, {
         text: menuText,
         contextInfo: {
             mentionedJid: conn.parseMention(menuText),
@@ -35,15 +35,37 @@ const handler = async (message, { conn, usedPrefix }) => {
             isForwarded: true,
             externalAdReply: {
                 title: `${responseTime} ms`,
-                body: `Versione Bot: ${vs}`,
+                body: `Versione Bot: 1.0.1`,
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'PHOTO',
-                thumbnail: profilePicture,
-                sourceUrl: 'ok'
+                thumbnail: Buffer.from(profilePicture, 'base64'), // Ensure the thumbnail is properly encoded
+                sourceUrl: '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲'
             }
         }
     });
+
+    // Forward message from the specified channel
+    const channelJid = '120363259442839354@newsletter';
+    const forwardedMessage = await conn.loadMessage(channelJid, message.id);
+    if (forwardedMessage && forwardedMessage.message) {
+        await conn.relayMessage(message.chat, forwardedMessage.message, {
+            messageId: forwardedMessage.key.id,
+            contextInfo: {
+                externalAdReply: {
+                    title: 'Forwarded Message',
+                    body: `From: ${botName}`,
+                    mediaType: 1,
+                    renderLargerThumbnail: false,
+                    previewType: 'PHOTO',
+                    thumbnail: Buffer.from(profilePicture, 'base64'), // Ensure the thumbnail is properly encoded
+                    sourceUrl: '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲'
+                }
+            }
+        });
+    } else {
+        console.error('Failed to load forwarded message');
+    }
 };
 
 handler.help = ['menu'];
@@ -59,30 +81,19 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':');
 }
 
-function generateMenuText(prefix, botName) {
+function generateMenuText(prefix, botName, userCount) {
     return `
-        ──────────────
-        - ${prefix}menu
-        - ${prefix}comandi
-        ──────────────
-        Funzioni:
-        - ${prefix}funzioni
-        - ${prefix}install
-        ──────────────
-        Proprietario:
-        - ${prefix}proprietario
-        ──────────────
-        Admin:
-        - ${prefix}admin
-        ──────────────
-        Gruppo:
-        - ${prefix}gruppo
-        ──────────────
-        Script:
-        - ${prefix}script
-        ──────────────
-        Uptime: ${clockString(process.uptime())}
-        Utenti: ${Object.keys(global.db.data.users).length}
-        Bot: ${botName}
+    ༻══════════༺
+          𝐔𝐬𝐚 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭
+        
+     ${prefix}𝐅𝐮𝐧𝐳𝐢𝐨𝐧𝐢
+     ${prefix}𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚
+     ${prefix}𝐩𝐫𝐨𝐩𝐫𝐢𝐞𝐭𝐚𝐫𝐢𝐨
+     ${prefix}𝐀𝐝𝐦𝐢𝐧
+     ${prefix}𝐆𝐫𝐮𝐩𝐩𝐨
+     ${prefix}𝐒𝐜𝐫𝐢𝐩𝐭
+    ༻══════════༺
+        𝐔𝐭𝐞𝐧𝐭𝐢: ${userCount}
+        𝐀𝐮𝐭𝐨𝐫𝐞: 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
     `;
 }
