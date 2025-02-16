@@ -20,7 +20,7 @@
  <details>
   <summary><b>Tocca qui per vedere </b></summary>
     
-https://f-droid.org/it/packages/com.termux/ ](https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
+https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
 
 </details> 
 
