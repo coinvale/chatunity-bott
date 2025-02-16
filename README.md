@@ -20,9 +20,8 @@
  <details>
   <summary><b>Tocca qui per vedere </b></summary>
     
-https://f-droid.org/it/packages/com.termux/ 
+https://f-droid.org/it/packages/com.termux/ ](https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
 
-> *Scaricare l'apk Versione 0.119.0-beta.1 (1020) - Aggiunta il 21/06/2024*
 </details> 
 
  #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`  
@@ -67,7 +66,7 @@ https://f-droid.org/it/packages/com.termux/
   <summary><b>Tocca qui per vedere </b></summary>
     
   ```bash 
- > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
    ```
 
 </details>
@@ -82,7 +81,7 @@ https://f-droid.org/it/packages/com.termux/
  * Scarica e installa ImageMagick [`Clicca qui`](https://imagemagick.org/script/download.php) 
 
  ```bash 
- git clone https://github.com/chatunityy/chatunity-bot 
+ git clone https://github.com/chatunityy/chatunity-bot
  ``` 
  ```bash 
  cd chatunity-bot 
