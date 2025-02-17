@@ -1,15 +1,34 @@
-let handler = async (m, { conn, usedPrefix, command, text }) => {
-    let who
-    if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : false
-    else who = text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : m.chat
-    let user = global.db.data.users[who]
-    if (!who) return m.reply(`Menziona chi vuoi abbracciare`)
-   
-   
-let abrazo = await conn.reply(m.chat, `@${m.sender.split('@')[0]}  sta abbracciando @${who.split('@')[0]} `, m, { mentions: [who, m.sender] })
+const { makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys");
 
-conn.sendMessage(m.chat, { react: { text: '🫂', key: abrazo.key }})
+async function startBot() {
+    const { state, saveCreds } = await useMultiFileAuthState("auth_info");
+    const sock = makeWASocket({ auth: state });
+
+    sock.ev.on("creds.update", saveCreds);
+
+    sock.ev.on("messages.upsert", async ({ messages }) => {
+        const msg = messages[0];
+
+        if (!msg.message || !msg.key.remoteJid) return;
+
+        const text = msg.message.conversation || msg.message.extendedTextMessage?.text;
+
+        if (text) {
+            const sender = msg.key.remoteJid;
+            
+            if (text.startsWith(".abbraccio") || text.startsWith("abbraccia")) {
+                const mentionedUser = msg.message.extendedTextMessage?.contextInfo?.mentionedJid?.[0];
+
+                if (mentionedUser) {
+                    await sock.sendMessage(sender, { text: Stai abbracciando @${mentionedUser.split("@")[0]} 🫂 }, { quoted: msg });
+                } else {
+                    await sock.sendMessage(sender, { text: "Tagga qualcuno per abbracciarlo! 👀" }, { quoted: msg });
+                }
+            }
+        }
+    });
+
+    console.log("🤖 Bot WhatsApp avviato!");
 }
-handler.customPrefix = /abbraccio|abbraccia/i
-handler.command = new RegExp
-export default handler
+
+startBot();

@@ -135,7 +135,7 @@ do {
   ┊ ${chalk.blueBright('┊')} ${chalk.bold.green(`Se non fornisce nulla rimandare il numero affinchè il sistema non lo riceve`)}
   ┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
   ╰${lineM}\n${chalk.bold.magentaBright('---> ')}`));
-} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
+} 
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
