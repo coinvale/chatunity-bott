@@ -41,7 +41,7 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
  ```
 
  ```bash 
- git clone https://github.com/coinvale/chatunity-bot.gitt
+ git clone https://github.com/coinvale/chatunity-bott.git
  ```
   
  ```bash 
