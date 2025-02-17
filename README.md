@@ -33,7 +33,7 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
  ``` 
 
  ```bash 
- apt update && apt upgrade -y
+ apt update 
  ``` 
 
  ```bash 
@@ -41,11 +41,11 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
  ```
 
  ```bash 
- git clone https://github.com/chatunityy/chatunity-bot.git
+ git clone https://github.com/coinvale/chatunity-bot.gitt
  ```
   
  ```bash 
- cd chatunity-bot
+ cd chatunity-bott
  ```
 
  ```bash 
@@ -54,6 +54,10 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
 
  ```bash 
  npm install
+ ```
+
+ ```bash 
+ npm update
  ``` 
 
  ```bash 
@@ -81,7 +85,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
  * Scarica e installa ImageMagick [`Clicca qui`](https://imagemagick.org/script/download.php) 
 
  ```bash 
- git clone https://github.com/chatunityy/chatunity-bot
+ git clone https://github.com/coinvale/chatunity-bott
  ``` 
  ```bash 
  cd chatunity-bot 
