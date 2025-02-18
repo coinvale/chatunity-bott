@@ -21,7 +21,7 @@ export default handler
 
 import formData from 'form-data'
 import fetch from 'node-fetch'
-import cheerio from 'cheerio'
+import * as cheerio from 'cheerio'
 var effects = [
   {
     "title": "3d-deep-sea-metal",

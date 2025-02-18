@@ -1,8 +1,8 @@
 {
   "users": {
     "8619858371809@s.whatsapp.net": {
-      "messaggi": 8834,
-      "exp": 120468,
+      "messaggi": 8853,
+      "exp": 120569,
       "limit": 20,
       "money": null,
       "blasphemy": 0,
@@ -17,10 +17,10 @@
       "muto": false
     },
     "393803482529@s.whatsapp.net": {
-      "messaggi": 155,
-      "exp": 1262,
+      "messaggi": 159,
+      "exp": 1286,
       "limit": 20,
-      "money": 0,
+      "money": null,
       "blasphemy": 0,
       "msg": {},
       "warn": 0,
@@ -109,10 +109,10 @@
       "muto": false
     },
     "120363298520077920@newsletter": {
-      "messaggi": 18,
+      "messaggi": 22,
       "blasphemy": 0,
       "msg": {},
-      "exp": 111,
+      "exp": 136,
       "money": null,
       "warn": 0,
       "joincount": 2,
@@ -908,7 +908,7 @@
       "antiPorno": true,
       "muto": false,
       "expired": 0,
-      "messaggi": 77,
+      "messaggi": 91,
       "blasphemy": 0,
       "premium": false,
       "premiumTime": 0,
@@ -947,7 +947,7 @@
       "antiPorno": true,
       "muto": false,
       "expired": 0,
-      "messaggi": 313,
+      "messaggi": 318,
       "blasphemy": 0,
       "premium": false,
       "premiumTime": 0,
@@ -1258,7 +1258,7 @@
       "antiPorno": true,
       "muto": false,
       "expired": 0,
-      "messaggi": 18,
+      "messaggi": 22,
       "blasphemy": 0,
       "premium": false,
       "premiumTime": 0,
@@ -1956,7 +1956,7 @@
       "antiPorno": true,
       "muto": false,
       "expired": 0,
-      "messaggi": 13,
+      "messaggi": 17,
       "blasphemy": 0,
       "premium": false,
       "premiumTime": 0,
