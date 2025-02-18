@@ -124,7 +124,7 @@ function _0x1183() {
         'map',
         'memoryUsage',
         '8dutzDm',
-        'https://telegra.ph/file/2f38b3fd9cfba5935b496.jpg',
+        'https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg',
         'user',
         'data',
         'sendMessage',
