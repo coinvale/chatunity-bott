@@ -81,6 +81,8 @@ global.loadDatabase = async function loadDatabase() {
 };
 loadDatabase();
 
+/* Creditos a Otosaka (https://wa.me/51993966345) */
+
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, '/db/chatgpt.json')));
 global.loadChatgptDB = async function loadChatgptDB() {
   if (global.chatgpt.READ) {
@@ -127,7 +129,7 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question(chalk.greenBright(` 𝐒𝐞𝐥𝐞𝐳𝐢𝐨𝐧𝐚 𝐮𝐧𝐚 𝐨𝐩𝐳𝐢𝐨𝐧𝐞 𝐩𝐞𝐫 𝐜𝐨𝐥𝐥𝐞𝐠𝐚𝐫𝐞 𝐢𝐥 𝐭𝐮𝐨 𝐛𝐨𝐭 :\n1. 𝐓𝐫𝐚𝐦𝐢𝐭𝐞 𝐐𝐑\n2. 𝐓𝐫𝐚𝐦𝐢𝐭𝐞 𝐜𝐨𝐝𝐢𝐜𝐞 𝐚 𝟖 𝐜𝐢𝐟𝐫𝐞 \n---> `))
+opcion = await question(chalk.greenBright(`🔮 𝐒𝐞𝐥𝐞𝐳𝐢𝐨𝐧𝐚 𝐮𝐧𝐚 𝐨𝐩𝐳𝐢𝐨𝐧𝐞 𝐩𝐞𝐫 𝐜𝐨𝐥𝐥𝐞𝐠𝐚𝐫𝐞 𝐢𝐥 𝐭𝐮𝐨 𝐛𝐨𝐭 :\n1. 𝐓𝐫𝐚𝐦𝐢𝐭𝐞 𝐐𝐑\n2. 𝐓𝐫𝐚𝐦𝐢𝐭𝐞 𝐜𝐨𝐝𝐢𝐜𝐞 𝐚 𝟖 𝐜𝐢𝐟𝐫𝐞 \n---> `))
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
@@ -142,7 +144,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭', 'Safari', '2.0.0'] : methodCodeQR ? ['𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['𝐁𝐢𝐱𝐛𝐲-𝐁𝐨𝐭-𝐌𝐝 𝟐.𝟎', 'Safari', '2.0.0'] : methodCodeQR ? ['𝐁𝐢𝐱𝐛𝐲-𝐁𝐨𝐭-𝐌𝐝 𝟐.𝟎', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -164,47 +166,46 @@ version,
 global.conn = makeWASocket(connectionOptions);
 
 if (!fs.existsSync(`./${authFile}/creds.json`)) {
-  if (opcion === '2' || methodCode) {
-    //if (fs.existsSync(`./${authFile}/creds.json`)) {
-    //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
-    //process.exit()
-    opcion = '2'
-    if (!conn.authState.creds.registered) {  
-      if (MethodMobile) throw new Error(`Impossibile utilizzare un codice di accoppiamento con l'API mobile`)
+if (opcion === '2' || methodCode) {
+//if (fs.existsSync(`./${authFile}/creds.json`)) {
+//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
+//process.exit()
+//}
+opcion = '2'
+if (!conn.authState.creds.registered) {  
+if (MethodMobile) throw new Error(`Impossibile utilizzare un codice di accoppiamento con l'API mobile`)
 
-      let numeroTelefono
-      if (!!phoneNumber) {
-        numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
-        if (!PHONENUMBER_MCC || !Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-          console.log(chalk.bgBlack(chalk.bold.redBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
-          process.exit(0)
-        }
-      } else {
-        while (true) {
-          numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
-          numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
+let numeroTelefono
+if (!!phoneNumber) {
+numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
+if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+console.log(chalk.bgBlack(chalk.bold.redBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
+process.exit(0)
+}} else {
+while (true) {
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
+numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
-          if (numeroTelefono.match(/^\d+$/) && PHONENUMBER_MCC && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-            break 
-          } else {
-            console.log(chalk.bgBlack(chalk.bold.redBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
-          }
-        }
-        rl.close()  
-      } 
+if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+break 
+} else {
+console.log(chalk.bgBlack(chalk.bold.redBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
+}}
+rl.close()  
+} 
 
-      setTimeout(async () => {
-        let codigo = await conn.requestPairingCode(numeroTelefono)
-        codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-        console.log(chalk.yellowBright(' 𝐂𝐨𝐥𝐥𝐞𝐠𝐚 𝐢𝐥 𝐭𝐮𝐨 𝐛𝐨𝐭...'));
-        console.log(chalk.black(chalk.bgCyanBright(`𝐈𝐍𝐒𝐄𝐑𝐈𝐒𝐂𝐈 𝐐𝐔𝐄𝐒𝐓𝐎 𝐂𝐎𝐃𝐈𝐂𝐄:`)), chalk.black(chalk.bgGreenBright(codigo)))
-      }, 3000)
-    }
-  }
+        setTimeout(async () => {
+            let codigo = await conn.requestPairingCode(numeroTelefono)
+            codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
+            console.log(chalk.yellowBright('🔮 𝐂𝐨𝐥𝐥𝐞𝐠𝐚 𝐢𝐥 𝐭𝐮𝐨 𝐛𝐨𝐭...'));
+            console.log(chalk.black(chalk.bgCyanBright(`𝐈𝐍𝐒𝐄𝐑𝐈𝐒𝐂𝐈 𝐐𝐔𝐄𝐒𝐓𝐎 𝐂𝐎𝐃𝐈𝐂𝐄:`)), chalk.black(chalk.bgGreenBright(codigo)))
+        }, 3000)
+}}
 }
+
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(` 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...\n`);
+conn.logger.info(`🔮 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -384,8 +385,8 @@ global.reloadHandler = async function(restatConn) {
 
   conn.welcome = '@user 𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨/𝐚 𝐢𝐧 @subject'
 conn.bye = '@user 𝐡𝐚 𝐚𝐛𝐛𝐚𝐧𝐝𝐨𝐧𝐚𝐭𝐨 𝐢𝐥 𝐠𝐫𝐮𝐩𝐩𝐨'
-conn.spromote = '@user 𝐄̀ 𝐨𝐫𝐚 𝐚𝐝𝐦𝐢𝐧'
-conn.sdemote = '@user 𝐍𝐨𝐧 𝐞̀ 𝐩𝐢𝐮̀ 𝐚𝐝𝐦𝐢𝐧'
+conn.spromote = '@user 𝐡𝐚 𝐢 𝐩𝐨𝐭𝐞𝐫𝐢'
+conn.sdemote = '@user 𝐧𝐨𝐧 𝐡𝐚 𝐩𝐢𝐮 𝐢 𝐩𝐨𝐭𝐞𝐫𝐢'
 conn.sIcon = '𝐢𝐦𝐦𝐚𝐠𝐢𝐧𝐞 𝐠𝐫𝐮𝐩𝐩𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐭𝐚'
 conn.sRevoke = '𝐥𝐢𝐧𝐤 𝐫𝐞𝐢𝐦𝐩𝐨𝐬𝐭𝐚𝐭𝐨, 𝐧𝐮𝐨𝐯𝐨 𝐥𝐢𝐧𝐤: @revoke'
 
@@ -511,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 𝐨𝐧𝐥𝐢𝐧𝐞 𝐝𝐚 ${uptime} `
+  const bio = `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝐨𝐧𝐥𝐢𝐧𝐞 𝐝𝐚 ${uptime} `
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
